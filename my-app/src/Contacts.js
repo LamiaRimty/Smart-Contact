@@ -1,5 +1,8 @@
 import { StrictMode } from "react";
 
+function contacts(){
+    
+}
 const contacts = [
     {
       name: "Jaya Ahsan",
