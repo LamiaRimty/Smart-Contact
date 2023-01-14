@@ -1,5 +1,3 @@
-import { StrictMode } from "react";
-
 const contacts = [
     {
       name: "Jaya Ahsan",
