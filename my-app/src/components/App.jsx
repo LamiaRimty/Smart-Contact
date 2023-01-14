@@ -1,4 +1,5 @@
 import React from "react";
+import contacts from "../contacts";
 import Card from "./Card";
 
 
@@ -7,11 +8,25 @@ function App() {
     <div>
       <h1 className="heading">My Contacts</h1>
      <Card
-           name= "Jaya Ahsan"
-           img= "https://i.pinimg.com/564x/73/16/aa/7316aa46e85f0d0c06768a76f7330eac.jpg"
-           tel= "+1788787"
-           email= "jaya@gmail.com"
+           name={contacts[0].name}
+           img= {contacts[0].img}
+           tel= {contacts[0].tel}
+           email={contacts[0].email}
      />
+
+    <Card
+           name={contacts[1].name}
+           img= {contacts[1].img}
+           tel= {contacts[1].tel}
+           email={contacts[1].email}
+     />
+
+    <Card
+           name={contacts[2].name}
+           img= {contacts[2].img}
+           tel= {contacts[2].tel}
+           email={contacts[2].email}
+     />    
     </div>
   );
 }

@@ -1,8 +1,5 @@
 import { StrictMode } from "react";
 
-function contacts(){
-    
-}
 const contacts = [
     {
       name: "Jaya Ahsan",
@@ -12,17 +9,16 @@ const contacts = [
     },
     {
       name: "Chanchal Chowdhury",
-      img: "https://www.themoviedb.org/t/p/w500/kdekgPF8Z3thvmK8QKvBhEhcuYN.jpg",
+      img: "https://www.themoviedb.org/t/p/w235_and_h235_face/kdekgPF8Z3thvmK8QKvBhEhcuYN.jpg",
       tel: "+0172376778",
       email: "chan@gmail.com"
     },
     {
       name: "Siam Ahmed",
-      img:
-        "https://businesspostbd.com/files/media/daily-media/Dated/2021-/October/22/siam-ahmed-inn.png",
+      img:"https://www.themoviedb.org/t/p/w235_and_h235_face/4gSLuSAkUMnjv0nRRgUjOGSo2YU.jpg",
       tel: "+017 567 778",
       email: "siam@gmail.com"
     }
   ];
-
   export default contacts;
+ 
