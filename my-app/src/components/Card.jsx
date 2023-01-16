@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import Avatar from "./Avatar";
 import Detail from "./Detail";
 
